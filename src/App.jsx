@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import ScrollUpButton from "./Components/ScrollUpBtn/ScrollUpBtn";
 import MySkills from "./Components/MySkills/MySkills";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   return (
@@ -18,9 +19,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<MySkills />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
         <MySkills></MySkills>
+        <Projects></Projects>
         <About></About>
+
         <Contact></Contact>
         <ScrollUpButton />
         <Footer></Footer>

@@ -1,7 +1,9 @@
+import SectionTitle from "../../Hooks/SectionTitle/SectionTitle";
+
 const Contact = () => {
   return (
     <div id="contact" className="min-h-screen ">
-      Contact
+      <SectionTitle title={"Contact Me"}></SectionTitle>
     </div>
   );
 };

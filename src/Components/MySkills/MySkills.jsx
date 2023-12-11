@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const MySkills = () => {
   return (
-    <div id="skills">
+    <div id="skills" className="bg-[#161616] pt-10 pb-10 md:pb-28 mt-10">
       <SectionTitle title={"My Skills"}></SectionTitle>
       <Container>
         <Marquee>

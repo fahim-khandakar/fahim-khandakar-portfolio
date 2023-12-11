@@ -11,6 +11,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 
 import { EffectCards } from "swiper/modules";
+import Education from "../Education/Education";
 
 const About = () => {
   return (
@@ -18,7 +19,7 @@ const About = () => {
       <SectionTitle title={"About Me"}></SectionTitle>
       <div className="mt-10">
         <Container>
-          <div className="flex flex-col items-center md:flex-row gap-5 ">
+          <div className="flex flex-col-reverse items-center md:flex-row gap-14 md:gap-5 ">
             {/* left side div  */}
             <div className="w-full md:w-3/5">
               <h1 className="uppercase text-[#F2F2F2] text-xl md:text-3xl font-bold mb-8">
@@ -67,7 +68,7 @@ const About = () => {
               </div>
             </div>
             {/* right side div  */}
-            <div className="w-full md:w-1/3">
+            <div className="w-3/4 md:w-1/3">
               <Swiper
                 effect={"cards"}
                 grabCursor={true}
@@ -88,6 +89,7 @@ const About = () => {
               </Swiper>
             </div>
           </div>
+          <Education></Education>
         </Container>
       </div>
     </div>
