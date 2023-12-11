@@ -22,8 +22,8 @@ const Navbar = () => {
         </ScrollLink>
       </li>
       <li>
-        <ScrollLink to="contact" smooth={true} duration={500}>
-          Contact
+        <ScrollLink to="skills" smooth={true} duration={500}>
+          Skills
         </ScrollLink>
       </li>
     </>
@@ -61,8 +61,8 @@ const Navbar = () => {
               {navbarLink}
             </ul>
           </div>
-          <img src={logo} alt="logo" />{" "}
-          <h4 className="ml-5 text-3xl font-bold uppercase">
+          <img className="w-[40px] md:w-[60px]" src={logo} alt="logo" />
+          <h4 className="ml-5 text-lg md:text-3xl font-bold uppercase">
             <span className="text-[#828282] ">Fahim</span> Khandakar
           </h4>
         </div>
@@ -73,8 +73,9 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <ScrollLink to="contact" smooth={true} duration={500}>
-            <button className="btn font-bold bg-transparent text-[#F2F2F2] flex items-center gap-3 border-2 px-3 rounded-md">
-              <img src={email} alt="logo" /> Contact Me
+            <button className="btn font-bold bg-transparent text-[#F2F2F2] flex items-center md:gap-3 gap-1 border-2 px-1 md:px-3 rounded-md">
+              <img className="w-1/5 md:w-1/4" src={email} alt="logo" /> Contact
+              Me
             </button>
           </ScrollLink>
         </div>

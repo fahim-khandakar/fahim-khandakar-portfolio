@@ -76,13 +76,13 @@ const Home = () => {
   const { View } = useLottie(options);
 
   return (
-    <div id="home" className="min-h-screen">
+    <div id="home">
       <Container>
-        <div className="flex justify-between mt-20 text-[#F2F2F2] items-center gap-10">
+        <div className="flex  flex-col md:flex-row  justify-between mt-20 text-[#F2F2F2] items-center gap-10">
           {/* left side code */}
           <div className="space-y-3">
-            <h4 className="text-4xl font-bold">Hi I'm </h4>
-            <h2 className="text-[#70FF00] font-bold text-6xl">
+            <h4 className="text-2xl md:text-4xl font-bold">Hi I'm </h4>
+            <h2 className="text-[#70FF00] font-bold text-3xl md:text-6xl">
               Fahim khandakar
             </h2>
             <div>
