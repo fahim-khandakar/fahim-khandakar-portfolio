@@ -8,7 +8,7 @@ import { MdCastForEducation } from "react-icons/md";
 
 const Education = () => {
   return (
-    <div id="education">
+    <div id="education" className="mt-10 md:mt-0">
       <SectionTitle title={"Education Details"}></SectionTitle>
 
       <VerticalTimeline lineColor={"#70FF00"}>
