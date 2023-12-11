@@ -16,11 +16,7 @@ const Navbar = () => {
           Home
         </ScrollLink>
       </li>
-      <li>
-        <ScrollLink to="about" smooth={true} duration={500}>
-          About
-        </ScrollLink>
-      </li>
+
       <li>
         <ScrollLink to="skills" smooth={true} duration={500}>
           Skills
@@ -29,6 +25,11 @@ const Navbar = () => {
       <li>
         <ScrollLink to="projects" smooth={true} duration={500}>
           Projects
+        </ScrollLink>
+      </li>
+      <li>
+        <ScrollLink to="about" smooth={true} duration={500}>
+          About
         </ScrollLink>
       </li>
     </>

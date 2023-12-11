@@ -3,8 +3,17 @@ import { useEffect } from "react";
 import Container from "../../Hooks/Container";
 import animation from "../../assets/Animation - 1702242995403.json";
 import { useLottie } from "lottie-react";
+import resume from "/Fahim Khandakar  Developer Resume.pdf";
 
 const Home = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = resume;
+    link.download = "Fahim-Khandakar.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   useEffect(() => {
     var words = ["Frontend Developer", "Programmer"];
     var counter = 0;
@@ -97,7 +106,10 @@ const Home = () => {
               field of web development.
             </div>
 
-            <button className="btn font-bold bg-transparent text-[#70FF00] flex items-center gap-3 border-2  px-3 rounded-md">
+            <button
+              onClick={handleDownload}
+              className="btn font-bold bg-transparent text-[#70FF00] flex items-center gap-3 border-2  px-3 rounded-md"
+            >
               Download Resume
             </button>
           </div>
