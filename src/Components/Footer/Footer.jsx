@@ -4,10 +4,12 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer p-10 text-[#828282] ">
-        <aside>
+        <aside className=" mx-auto  md:mx-0 text-center md:text-left">
           <img className="w-1/3 mx-auto" src={img} alt="My Logo" />
 
-          <p className="text-[#70FF00] text-3xl font-bold">Fahim Khandakar</p>
+          <p className="text-[#70FF00] w-full text-3xl font-bold">
+            Fahim Khandakar
+          </p>
         </aside>
         <nav>
           <header className="footer-title text-[#70FF00]">Address</header>
