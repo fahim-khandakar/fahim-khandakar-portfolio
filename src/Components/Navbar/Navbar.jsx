@@ -1,6 +1,5 @@
 // Navbar.js
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-import "./Navbar.css";
 import logo from "../../assets/Group.png";
 import email from "../../assets/email-fast-outline 2.png";
 
@@ -11,23 +10,23 @@ const Navbar = () => {
 
   const navbarLink = (
     <>
-      <li>
+      <li className="hover:text-[#70FF00]">
         <ScrollLink to="home" smooth={true} duration={500}>
           Home
         </ScrollLink>
       </li>
 
-      <li>
+      <li className="hover:text-[#70FF00]">
         <ScrollLink to="skills" smooth={true} duration={500}>
           Skills
         </ScrollLink>
       </li>
-      <li>
+      <li className="hover:text-[#70FF00]">
         <ScrollLink to="projects" smooth={true} duration={500}>
           Projects
         </ScrollLink>
       </li>
-      <li>
+      <li className="hover:text-[#70FF00]">
         <ScrollLink to="about" smooth={true} duration={500}>
           About
         </ScrollLink>
@@ -73,7 +72,7 @@ const Navbar = () => {
           </h4>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal font-bold text-lg px-1">
+          <ul className="menu menu-horizontal font-bold text-lg px-1 ">
             {navbarLink}
           </ul>
         </div>
