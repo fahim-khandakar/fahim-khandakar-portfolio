@@ -22,11 +22,87 @@ const Projects = () => {
                 Explore Elite
               </h2>
               <p className="mt-3 text-[#828282]">
-                Tourists: Register, login, and add services on our
-                mobile-friendly site. Get sweet alerts upon success. Gain guide
-                access with admin approval. Buy packages for discounts on 3 or
-                more. Click the heart icon to add packages to your wish route.
+                Tourists, register, log in, and add services on our
+                mobile-friendly site. Receive sweet alerts for successful
+                actions. Gain guide access with admin approval and enjoy package
+                discounts on 3 or more purchases.
               </p>
+
+              <div className="flex gap-1 justify-center my-2">
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png"
+                    alt="HTML"
+                    title="HTML"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png"
+                    alt="CSS"
+                    title="CSS"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png"
+                    alt="Firebase"
+                    title="Firebase"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"
+                    alt="JavaScript"
+                    title="JavaScript"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png"
+                    alt="Node.js"
+                    title="Node.js"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6.png"
+                    alt="Express"
+                    title="Express"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png"
+                    alt="mongoDB"
+                    title="mongoDB"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/189716630-fe6c084c-6c66-43af-aa49-64c8aea4a5c2.png"
+                    alt="Material UI"
+                    title="Material UI"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://www.vectorlogo.zone/logos/axios/axios-ar21.svg"
+                    alt="HTML"
+                    title="HTML"
+                  />
+                </code>
+              </div>
+
               <div className="card-actions justify-center mt-5">
                 <NavLink
                   to={"https://explore-elite.web.app/"}
@@ -75,13 +151,95 @@ const Projects = () => {
                 Drive Master Pro
               </h2>
               <p className="mt-3 text-[#828282]">
-                This website lets you explore a variety of cars. Create an
-                account for extra features like 'Add Product' and 'My Cart.' The
-                mobile-responsive design ensures easy access on any device.
-                After successfully registering, logging in, adding a product, or
-                placing it in your cart, receive a sweet alert confirming your
-                success.
+                Explore diverse cars on our website. Create an account for 'Add
+                Product' and 'My Cart.' The mobile-friendly design ensures easy
+                access. Get sweet alerts for successful actions like
+                registration, login, and adding to your cart.
               </p>
+
+              <div className="flex gap-1 justify-center my-2">
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png"
+                    alt="HTML"
+                    title="HTML"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png"
+                    alt="CSS"
+                    title="CSS"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png"
+                    alt="Firebase"
+                    title="Firebase"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"
+                    alt="JavaScript"
+                    title="JavaScript"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="20"
+                    src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png"
+                    alt="React"
+                    title="React"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png"
+                    alt="Node.js"
+                    title="Node.js"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6.png"
+                    alt="Express"
+                    title="Express"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png"
+                    alt="mongoDB"
+                    title="mongoDB"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://www.vectorlogo.zone/logos/axios/axios-ar21.svg"
+                    alt="HTML"
+                    title="HTML"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png"
+                    alt="Tailwind CSS"
+                    title="Tailwind CSS"
+                  />
+                </code>
+              </div>
+
               <div className="card-actions justify-center mt-5">
                 <NavLink
                   to={"https://drive-master-pro-f36e6.web.app/"}
@@ -130,12 +288,95 @@ const Projects = () => {
                 Adventure Hub
               </h2>
               <p className="mt-3 text-[#828282]">
-                Explore diverse tour services on our mobile-friendly website.
-                Create an account for exclusive features like 'Add Service,' 'My
-                Booking,' and 'My Schedules.' Enjoy a seamless experience with
-                sweet alerts confirming your success after registration, login,
+                Discover tours on our mobile-friendly site. Create an account
+                for 'Add Service,' 'My Booking,' and 'My Schedules.' Receive
+                sweet alerts for successful actions like registration, login,
                 and service or booking additions.
               </p>
+
+              <div className="flex gap-1 justify-center my-2">
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png"
+                    alt="HTML"
+                    title="HTML"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png"
+                    alt="CSS"
+                    title="CSS"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png"
+                    alt="Firebase"
+                    title="Firebase"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="20"
+                    src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png"
+                    alt="React"
+                    title="React"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"
+                    alt="JavaScript"
+                    title="JavaScript"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png"
+                    alt="Node.js"
+                    title="Node.js"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6.png"
+                    alt="Express"
+                    title="Express"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png"
+                    alt="mongoDB"
+                    title="mongoDB"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://www.vectorlogo.zone/logos/axios/axios-ar21.svg"
+                    alt="HTML"
+                    title="HTML"
+                  />
+                </code>
+                <code>
+                  <img
+                    width="25"
+                    src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png"
+                    alt="Tailwind CSS"
+                    title="Tailwind CSS"
+                  />
+                </code>
+              </div>
+
               <div className="card-actions justify-center mt-5">
                 <NavLink
                   to={"https://adventures-hub.web.app/"}
