@@ -1,8 +1,7 @@
 .swiper-pagination-bullet {
-  background-color: #f2f2f2; /* Change this to your desired color */
+  background-color: #f2f2f2 !important;
 }
 
-/* Add this style to change the active bullet color if needed */
 .swiper-pagination-bullet-active {
-  background-color: #70ff00; /* Change this to your desired active color */
+  background-color: #70ff00 !important;
 }
