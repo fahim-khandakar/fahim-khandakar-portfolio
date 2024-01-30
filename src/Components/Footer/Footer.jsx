@@ -12,12 +12,16 @@ const Footer = () => {
           </p>
         </aside>
         <nav>
-          <header className="footer-title text-[#70FF00]">Address</header>
+          <header className="footer-title opacity-100 text-[#70FF00]">
+            Address
+          </header>
           <a className="link link-hover">Email: fahimkhandakar01@gmail.com</a>
           <a className="link link-hover">Mipur-1, Dhaka-1216.</a>
         </nav>
         <nav>
-          <header className="footer-title text-[#70FF00]">Projects</header>
+          <header className="footer-title  opacity-100 text-[#70FF00]">
+            Projects
+          </header>
           <a
             href="https://explore-elite.web.app/"
             target="_blank"
@@ -44,7 +48,9 @@ const Footer = () => {
           </a>
         </nav>
         <nav>
-          <header className="footer-title text-[#70FF00]">Legal</header>
+          <header className="footer-title  opacity-100 text-[#70FF00]">
+            Legal
+          </header>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
