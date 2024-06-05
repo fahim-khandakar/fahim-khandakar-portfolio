@@ -19,3 +19,23 @@ body {
   color: white;
   font-family: "Roboto", sans-serif;
 }
+
+/* For Webkit browsers */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(
+    130deg,
+    #000 0%,
+    #272727 44.03%,
+    #494949 99.99%,
+    #727272 100%
+  );
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 100px;
+}

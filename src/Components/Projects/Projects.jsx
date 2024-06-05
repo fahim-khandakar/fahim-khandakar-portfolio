@@ -29,7 +29,7 @@ const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-1 gap-5">
             {/* Project 1 */}
             <SwiperSlide>
-              <div className="card  shadow-md hover:shadow-xl text-center md:text-left">
+              <div className="card  shadow-md hover:shadow-xl text-center md:text-left cursor-grab">
                 <div className="flex flex-col md:flex-row">
                   <figure>
                     <img src={project1} alt="Project" />
@@ -163,7 +163,7 @@ const Projects = () => {
             {/* Project 2 */}
             <SwiperSlide>
               {" "}
-              <div className="card shadow-md hover:shadow-xl text-center md:text-left">
+              <div className="card shadow-md hover:shadow-xl text-center md:text-left cursor-grab">
                 <div className="flex flex-col md:flex-row">
                   <figure>
                     <img src={project2} alt="Project" />
@@ -304,7 +304,7 @@ const Projects = () => {
 
             {/* Project 3 */}
             <SwiperSlide>
-              <div className="card  shadow-md hover:shadow-xl text-center md:text-left">
+              <div className="card  shadow-md hover:shadow-xl text-center md:text-left cursor-grab">
                 <div className="flex flex-col md:flex-row">
                   <figure>
                     <img src={project3} alt="Project" />

@@ -36,7 +36,7 @@ const Navbar = () => {
   return (
     <div className="pt-3">
       <div className="navbar mx-auto max-w-7xl  text-[#F2F2F2]">
-        <div className="navbar-start">
+        <div className="md:navbar-start">
           <div className="dropdown">
             <div
               tabIndex={0}
@@ -76,7 +76,7 @@ const Navbar = () => {
             {navbarLink}
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="md:navbar-end hidden md:flex">
           <ScrollLink to="contact" smooth={true} duration={500}>
             <button className="btn font-bold bg-transparent text-[#F2F2F2] flex items-center md:gap-3 gap-1 border-2 px-1 md:px-3 rounded-md">
               <img className="w-1/5 md:w-1/4" src={email} alt="logo" /> Contact

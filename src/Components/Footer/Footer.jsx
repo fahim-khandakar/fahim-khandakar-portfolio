@@ -11,6 +11,7 @@ const Footer = () => {
             Fahim Khandakar
           </p>
         </aside>
+
         <nav>
           <header className="footer-title opacity-100 text-[#70FF00]">
             Address
@@ -18,6 +19,7 @@ const Footer = () => {
           <a className="link link-hover">Email: fahimkhandakar01@gmail.com</a>
           <a className="link link-hover">Mipur-1, Dhaka-1216.</a>
         </nav>
+
         <nav>
           <header className="footer-title  opacity-100 text-[#70FF00]">
             Projects
@@ -47,6 +49,29 @@ const Footer = () => {
             Drive Master Pro
           </a>
         </nav>
+
+        <nav>
+          <header className="footer-title  opacity-100 text-[#70FF00]">
+            Social Media
+          </header>
+          <a
+            href="https://www.linkedin.com/in/fahimkhandakar01/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link link-hover"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/fahim-khandakar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link link-hover"
+          >
+            GitHub
+          </a>
+        </nav>
+
         <nav>
           <header className="footer-title  opacity-100 text-[#70FF00]">
             Legal
