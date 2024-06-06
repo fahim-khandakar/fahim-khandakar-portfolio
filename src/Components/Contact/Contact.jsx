@@ -10,12 +10,10 @@ const ContactForm = () => {
 
   if (state.succeeded && !state.submitting) {
     Swal.fire({
-      icon: "success",
       title: "Thanks for your feedback!",
-      showConfirmButton: false,
-      timer: 2000,
+      text: "I will contact you in a little while, give me some time.",
+      icon: "success",
     });
-
     // Wait for the resetForm Promise to resolve
     const form = document.getElementById("yourFormId");
     if (form) {
@@ -89,8 +87,11 @@ const ContactForm = () => {
 
               <button
                 type="submit"
-                className="btn w-full mt-4 font-bold bg-transparent text-[#70FF00] flex items-center gap-3 border-2  px-3 rounded-md"
+                className="btn hover:bg-transparent w-full mt-4 font-bold bg-transparent text-[#70FF00] flex items-center gap-3 border-2  px-3 rounded-md"
               >
+                {state?.submitting && (
+                  <span className="loading loading-spinner loading-md pl-2"></span>
+                )}
                 Send
               </button>
             </form>
