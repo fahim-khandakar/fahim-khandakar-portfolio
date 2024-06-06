@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   /* scrollbar-color: #494949 #727272; */
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 }
 
 body {
@@ -23,11 +23,13 @@ body {
 }
 
 /* For Webkit browsers */
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 7px;
+  color: red;
 }
 
 ::-webkit-scrollbar-track {
+  color: red;
   background: linear-gradient(
     130deg,
     #000 0%,
@@ -39,4 +41,5 @@ body {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 100px;
-} */
+  background: #70ff00;
+}
