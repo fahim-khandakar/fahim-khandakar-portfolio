@@ -6,6 +6,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* scrollbar-color: #494949 #727272; */
+  scrollbar-width: none;
 }
 
 body {
@@ -21,7 +23,7 @@ body {
 }
 
 /* For Webkit browsers */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 7px;
 }
 
@@ -36,6 +38,5 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
   border-radius: 100px;
-}
+} */
