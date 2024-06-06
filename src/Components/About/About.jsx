@@ -54,7 +54,7 @@ const About = () => {
                   </h3>
                   <h3>
                     Email :{" "}
-                    <span className="text-[#F2F2F2]">
+                    <span className="text-[#F2F2F2] break-all">
                       fahimkhandakar01@gmail.com
                     </span>
                   </h3>
