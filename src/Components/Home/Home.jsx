@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Container from "../../Hooks/Container";
 import animation from "../../assets/Animation - 1702242995403.json";
 import { useLottie } from "lottie-react";
-import resume from "/Fahim-Khandakar Resume.pdf";
+import resume from "/Fahim Khandakar Resume.pdf";
 
 const Home = () => {
   const handleDownload = () => {
