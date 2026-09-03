@@ -9,35 +9,113 @@ import { MdCastForEducation } from "react-icons/md";
 const Education = () => {
   return (
     <div id="education" className="mt-10 md:mt-0">
-      <SectionTitle title={"Education & Experience"}></SectionTitle>
+      <SectionTitle title={"Education & Experience"} />
 
       <VerticalTimeline lineColor={"#70FF00"}>
+        {/* Backend Developer */}
         <VerticalTimelineElement
-          className="vertical-timeline-element--work "
+          className="vertical-timeline-element--work"
           contentStyle={{ backgroundColor: "transparent", color: "#828282" }}
-          contentArrowStyle={{ borderRight: "7px solid  #70FF00" }}
-          date="2023 - present"
+          contentArrowStyle={{ borderRight: "7px solid #70FF00" }}
+          date="Jan 2025 - Present"
           dateClassName={"text-[#70FF00]"}
           iconStyle={{ backgroundColor: "#161616", color: "#70FF00" }}
           icon={<MdCastForEducation />}
         >
           <h3 className="vertical-timeline-element-title text-[#70FF00]">
-            Frontend Developer
+            Backend Developer — NEC Group
           </h3>
 
+          <p className="mb-2 text-sm text-[#70FF00]">
+            Jan 2025 - Present · 1+ Year
+          </p>
+
           <p>
-            In 2023, I completed a web development course at Programming Hero.
-            Over the last six months, I devoted significant time to research,
-            enhancing my understanding of various technologies. This period has
-            been particularly fruitful for my learning journey. Additionally, I
-            successfully completed my ninth-grade studies during this time.
+            Currently working as a Backend Developer at NEC Group, focusing on
+            building scalable server-side applications, REST APIs, database
+            architecture, authentication, business logic, and performance
+            optimization.
           </p>
         </VerticalTimelineElement>
 
+        {/* Frontend Developer */}
         <VerticalTimelineElement
-          className="vertical-timeline-element--work "
+          className="vertical-timeline-element--work"
           contentStyle={{ backgroundColor: "transparent", color: "#828282" }}
-          contentArrowStyle={{ borderRight: "7px solid  #70FF00" }}
+          contentArrowStyle={{ borderRight: "7px solid #70FF00" }}
+          date="Jan 2024 - Dec 2024"
+          dateClassName={"text-[#70FF00]"}
+          iconStyle={{ backgroundColor: "#161616", color: "#70FF00" }}
+          icon={<MdCastForEducation />}
+        >
+          <h3 className="vertical-timeline-element-title text-[#70FF00]">
+            Frontend Developer — NEC Group
+          </h3>
+
+          <p className="mb-2 text-sm text-[#70FF00]">
+            Jan 2024 - Dec 2024 · 1 Year
+          </p>
+
+          <p>
+            Started my professional career as a Frontend Developer at NEC Group,
+            where I worked on modern and responsive web applications, reusable
+            UI components, API integration, state management, and improving
+            overall user experience.
+          </p>
+        </VerticalTimelineElement>
+
+        {/* University */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ backgroundColor: "transparent", color: "#828282" }}
+          contentArrowStyle={{ borderRight: "7px solid #70FF00" }}
+          date="2021 - 2025"
+          dateClassName={"text-[#70FF00]"}
+          iconStyle={{ backgroundColor: "#161616", color: "#70FF00" }}
+          icon={<MdCastForEducation />}
+        >
+          <h3 className="vertical-timeline-element-title text-[#70FF00]">
+            B.Sc. in Computer Science & Engineering
+          </h3>
+
+          <p className="mb-2 text-sm text-[#70FF00]">
+            American International University-Bangladesh (AIUB)
+          </p>
+
+          <p>
+            Graduated with a degree in Computer Science & Engineering. During my
+            academic journey, I developed a strong foundation in programming,
+            software engineering, databases, and modern web technologies.
+          </p>
+        </VerticalTimelineElement>
+
+        {/* Web Development */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ backgroundColor: "transparent", color: "#828282" }}
+          contentArrowStyle={{ borderRight: "7px solid #70FF00" }}
+          date="2023"
+          dateClassName={"text-[#70FF00]"}
+          iconStyle={{ backgroundColor: "#161616", color: "#70FF00" }}
+          icon={<MdCastForEducation />}
+        >
+          <h3 className="vertical-timeline-element-title text-[#70FF00]">
+            Web Development
+          </h3>
+
+          <p>
+            Completed a comprehensive web development course at Programming Hero
+            and gained hands-on experience in modern frontend technologies,
+            backend development, APIs, databases, and full-stack application
+            development.
+          </p>
+        </VerticalTimelineElement>
+
+        {/* Self Learner */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ backgroundColor: "transparent", color: "#828282" }}
+          contentArrowStyle={{ borderRight: "7px solid #70FF00" }}
           date="2022"
           dateClassName={"text-[#70FF00]"}
           iconStyle={{ backgroundColor: "#161616", color: "#70FF00" }}
@@ -48,54 +126,31 @@ const Education = () => {
           </h3>
 
           <p>
-            In 2022, I embarked on a challenging solo journey into web
-            development. Progress was slow, but the experience proved
-            invaluable. The turning point came when I started the Programming
-            Hero course, where I found significant help and realized the
-            effectiveness of structured learning.
+            Started my journey into web development as a self learner, exploring
+            programming, web technologies, and software development through
+            continuous practice and real-world projects.
           </p>
         </VerticalTimelineElement>
 
+        {/* E-commerce */}
         <VerticalTimelineElement
-          className="vertical-timeline-element--work "
+          className="vertical-timeline-element--work"
           contentStyle={{ backgroundColor: "transparent", color: "#828282" }}
-          contentArrowStyle={{ borderRight: "7px solid  #70FF00" }}
+          contentArrowStyle={{ borderRight: "7px solid #70FF00" }}
           date="2020 - 2021"
           dateClassName={"text-[#70FF00]"}
           iconStyle={{ backgroundColor: "#161616", color: "#70FF00" }}
           icon={<MdCastForEducation />}
         >
           <h3 className="vertical-timeline-element-title text-[#70FF00]">
-            Story of my own business
+            E-commerce Business
           </h3>
 
           <p>
-            From 2020 to 2021, I endeavored to build an online e-commerce
-            business. However, while working on my own e-commerce site, I
-            realized my experience was limited. Recognizing the need for more
-            knowledge, I decided to pause the business. Despite the challenges,
-            the experience provided valuable insights that contribute to my
-            growth.
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work "
-          contentStyle={{ backgroundColor: "transparent", color: "#828282" }}
-          contentArrowStyle={{ borderRight: "7px solid  #70FF00" }}
-          date="2013 - 2019"
-          dateClassName={"text-[#70FF00]"}
-          iconStyle={{ backgroundColor: "#161616", color: "#70FF00" }}
-          icon={<MdCastForEducation />}
-        >
-          <h3 className="vertical-timeline-element-title text-[#70FF00]">
-            My Studies at the Madrasah.
-          </h3>
-
-          <p>
-            From 2013 to 2019, I studied at a madrasah, where I earned my Hafez
-            degree. Additionally, I completed two sessions of the Mawlana
-            division.
+            Worked on building my own online e-commerce business. This
+            experience helped me understand real-world business requirements,
+            customer needs, and how technology can be used to build practical
+            business solutions.
           </p>
         </VerticalTimelineElement>
 

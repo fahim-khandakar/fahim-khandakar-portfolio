@@ -14,6 +14,24 @@ import { EffectCards } from "swiper/modules";
 import Education from "../Education/Education";
 
 const About = () => {
+  function calculateAge(birthDateString) {
+    const today = new Date();
+    const birthDate = new Date(birthDateString);
+
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDifference = today.getMonth() - birthDate.getMonth();
+
+    // Reduce age by 1 if the birthday hasn't happened yet this year
+    if (
+      monthDifference < 0 ||
+      (monthDifference === 0 && today.getDate() < birthDate.getDate())
+    ) {
+      age--;
+    }
+
+    return age;
+  }
+
   return (
     <div id="about" className="min-h-screen ">
       <SectionTitle title={"About Me"}></SectionTitle>
@@ -35,7 +53,10 @@ const About = () => {
                     <span className="text-[#F2F2F2]">Khandakar</span>
                   </h3>
                   <h3>
-                    Age : <span className="text-[#F2F2F2]">22</span>
+                    Age :{" "}
+                    <span className="text-[#F2F2F2]">
+                      {calculateAge("2001-06-22")}
+                    </span>
                   </h3>
                   <h3>
                     Nationality :{" "}

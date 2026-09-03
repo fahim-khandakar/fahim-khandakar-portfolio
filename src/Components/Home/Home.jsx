@@ -15,7 +15,7 @@ const Home = () => {
     document.body.removeChild(link);
   };
   useEffect(() => {
-    var words = ["Frontend Developer", "Programmer"];
+    var words = ["Full Stack Developer", "Programmer"];
     var counter = 0;
     var currentIndex = getRandomInt(0, words.length - 1);
     var text = document.getElementById("type-it");
